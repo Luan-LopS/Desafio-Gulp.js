@@ -1,0 +1,36 @@
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header .container {
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+header .container nav ul {
+  display: flex;
+  flex-direction: row;
+}
+header .container nav ul li {
+  margin-left: 0.6rem;
+}
+header .container nav ul li a {
+  color: #000;
+}

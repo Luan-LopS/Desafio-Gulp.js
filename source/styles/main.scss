@@ -1,0 +1,23 @@
+@use 'variaveis';
+@use 'reset';
+@use 'carrousel';
+
+
+header .container{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    nav ul{
+        display: flex;
+        flex-direction: row;
+        li{
+            margin-left: .6rem;
+
+            a{
+                color: #000;
+            }
+        }
+    }
+}
