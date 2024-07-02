@@ -1,1 +1,1 @@
-let img=function(){};
+document.addEventListener("DOMContentLoaded",function(){let t=document.querySelectorAll(".card");let e=0;setInterval(function(){t.forEach(t=>{t.style.transition="transform 1s ease-in-out",t.style.transform=`translateX(-${1240*e}px)`}),++e>=t.length&&(e=0,setTimeout(()=>{t.forEach(t=>{t.style.transition="none"})},1e3))},3e3)});
